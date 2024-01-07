@@ -8,26 +8,34 @@ const ChoiceList = (props) => {
     const [choiceNum, setChoiceNum] = useState(0);
     const choiceElement = choices[choiceNum];
 
-    const handleClick = (increment) => {
+    const handleClick1 = () => {
         setChoiceNum(choiceNum + 1);
-        setScores(scores + increment);
+        setScores(scores); // Assuming you want to perform some operation on 'scores'
+    };
+
+    const handleClick2 = () => {
+        let newScores = choiceNum === 0 ? scores + 4 : scores + 1;
+        setScores(newScores);
+        setChoiceNum(choiceNum + 1);
     };
 
     return (
-        <div className={`choice-list ${choiceNum >= 4 ? 'choice-end' : ''}`}>
+        <div className="choice-list">
             {choiceNum < 4 ? (
                 <>
-                    <div className='question-content'>
-                        <img src={choiceElement.ss} alt={choiceElement.title} className="choice-image" />
+                    <div className='question'>
+                        <img src={choiceElement.ss} alt={choiceElement.title} className="choice-image"/>
                         <h2 className="choice-title">{choiceElement.title}</h2>
                     </div>
                     <div className='buttons'>
-                        <button onClick={() => handleClick(1)}>{choiceElement.choice1}</button>
-                        <button onClick={() => handleClick(choiceNum === 0 ? 4 : 1)}>{choiceElement.choice2}</button>
+                        <button onClick={handleClick1}>{choiceElement.choice1}</button>
+                        <button onClick={handleClick2}>{choiceElement.choice2}</button>
                     </div>
                 </>
             ) : (
-                <Link to="/result" state={{ scores: scores }} className="result-link">See your result</Link>
+                <div className='choice-end'>
+                    <Link to="/result" state={{ scores: scores }} className="result-link">哦哦你是...  （点击查看结果）</Link>
+                </div>
             )}
         </div>
     );
