@@ -17,7 +17,7 @@ const Result = () => {
         <div className="result-container">
         <ResultList resultPics={resultPics} scores={scores} />
         <div className="links-container">
-            <Link to='/8cat-types' className="retry-link">不不，我想你认错了（返回并重测）</Link>
+            <Link to='/8cat-type' className="retry-link">不不，我想你认错了（返回并重测）</Link>
             <Link to='/homeoflove' className="friends-link">点击看看你的朋友们吧！</Link>
         </div>
     </div>

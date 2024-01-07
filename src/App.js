@@ -13,7 +13,7 @@ function App() {
       <Navbar/>
       <div className="content">
         <Routes>
-          <Route path="/8cat-types" element={<Choice scores={scores}/>}></Route>
+          <Route path="/8cat-type" element={<Choice scores={scores}/>}></Route>
           <Route path="/result" element={<Result />}></Route>
           <Route path="/homeoflove" element={<Home />}></Route>
         </Routes>
