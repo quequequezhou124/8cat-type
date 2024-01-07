@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap');
+
+
+.result-container {
+    display: flex;
+    justify-content: center; /* This will center the children horizontally */
+    align-items: center; /* This will center the children vertically */
+    font-family: 'ZCOOL KuaiLe', sans-serif;
+    text-align: center;
+    padding: 20px;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: #fff8f0; /* Light orange background */
+    max-width: 800px;
+    /* margin: 40px auto; */
+}
+
+.links-container {
+    margin-top: 20px;
+}
+
+.retry-link, .friends-link {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #ff9800; /* Orange button color */
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.retry-link:hover, .friends-link:hover {
+    background-color: #e67e22; /* Darker orange on hover */
+}
+
+/* Add more CSS for the ResultList component as needed */

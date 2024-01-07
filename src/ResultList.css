@@ -1,0 +1,9 @@
+.result-list{
+    display: flex;
+    padding-top:6%
+}
+.result-list img {
+    height: auto; /* This maintains the aspect ratio of the image */
+    display: flex; /* This prevents default inline behavior of img */
+    margin: 0 auto; /* This centers the image within its container */
+}
