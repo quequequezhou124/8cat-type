@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/static/css/main.9fc55607.css",
-    "main.js": "/static/js/main.e6f179b7.js",
-    "static/media/kuangong.png": "/static/media/kuangong.2885b6c2e4e8b23d8bf9.png",
-    "static/media/mianyin.png": "/static/media/mianyin.2c17e5b3a03ca450bd1d.png",
-    "static/media/lihua.png": "/static/media/lihua.49b7d9d169a10d8dd86a.png",
-    "static/media/buou.png": "/static/media/buou.19ee3b768f75a6b4a530.png",
-    "static/media/jiba.png": "/static/media/jiba.fd12277a0d56c0ff0ef3.png",
-    "static/media/jumao.png": "/static/media/jumao.90c6cf4cb475623ab710.png",
-    "static/media/sanhua.png": "/static/media/sanhua.57e8caea64eeaf44cd47.png",
-    "static/media/donatepic1.png": "/static/media/donatepic1.3187900143ae983c7e01.png",
-    "static/media/donate2.png": "/static/media/donate2.74f8f0ea50ff98a6e0bf.png",
-    "static/media/heimao.png": "/static/media/heimao.ed57d980c302d07c47cf.png",
-    "static/media/s1.png": "/static/media/s1.9389465fb4fd736b8b0d.png",
-    "static/media/homeoflovepic.png": "/static/media/homeoflovepic.4c60504356f5f2a02410.png",
-    "static/media/aunt.png": "/static/media/aunt.4862f2e3f792a79709ba.png",
-    "static/media/base.png": "/static/media/base.ffc19c778df0c023d1eb.png",
-    "static/media/s2.png": "/static/media/s2.3f2de891b015d65bbf16.png",
-    "static/media/s3.png": "/static/media/s3.cf0aa5e52d18a668d367.png",
-    "static/media/s4.png": "/static/media/s4.7933bc7d6c6121f94f29.png",
-    "index.html": "/index.html",
-    "main.9fc55607.css.map": "/static/css/main.9fc55607.css.map",
-    "main.e6f179b7.js.map": "/static/js/main.e6f179b7.js.map"
+    "main.css": "/8cat-types/static/css/main.9fc55607.css",
+    "main.js": "/8cat-types/static/js/main.6fa5ef79.js",
+    "static/media/kuangong.png": "/8cat-types/static/media/kuangong.2885b6c2e4e8b23d8bf9.png",
+    "static/media/mianyin.png": "/8cat-types/static/media/mianyin.2c17e5b3a03ca450bd1d.png",
+    "static/media/lihua.png": "/8cat-types/static/media/lihua.49b7d9d169a10d8dd86a.png",
+    "static/media/buou.png": "/8cat-types/static/media/buou.19ee3b768f75a6b4a530.png",
+    "static/media/jiba.png": "/8cat-types/static/media/jiba.fd12277a0d56c0ff0ef3.png",
+    "static/media/jumao.png": "/8cat-types/static/media/jumao.90c6cf4cb475623ab710.png",
+    "static/media/sanhua.png": "/8cat-types/static/media/sanhua.57e8caea64eeaf44cd47.png",
+    "static/media/donatepic1.png": "/8cat-types/static/media/donatepic1.3187900143ae983c7e01.png",
+    "static/media/donate2.png": "/8cat-types/static/media/donate2.74f8f0ea50ff98a6e0bf.png",
+    "static/media/heimao.png": "/8cat-types/static/media/heimao.ed57d980c302d07c47cf.png",
+    "static/media/s1.png": "/8cat-types/static/media/s1.9389465fb4fd736b8b0d.png",
+    "static/media/homeoflovepic.png": "/8cat-types/static/media/homeoflovepic.4c60504356f5f2a02410.png",
+    "static/media/aunt.png": "/8cat-types/static/media/aunt.4862f2e3f792a79709ba.png",
+    "static/media/base.png": "/8cat-types/static/media/base.ffc19c778df0c023d1eb.png",
+    "static/media/s2.png": "/8cat-types/static/media/s2.3f2de891b015d65bbf16.png",
+    "static/media/s3.png": "/8cat-types/static/media/s3.cf0aa5e52d18a668d367.png",
+    "static/media/s4.png": "/8cat-types/static/media/s4.7933bc7d6c6121f94f29.png",
+    "index.html": "/8cat-types/index.html",
+    "main.9fc55607.css.map": "/8cat-types/static/css/main.9fc55607.css.map",
+    "main.6fa5ef79.js.map": "/8cat-types/static/js/main.6fa5ef79.js.map"
   },
   "entrypoints": [
     "static/css/main.9fc55607.css",
-    "static/js/main.e6f179b7.js"
+    "static/js/main.6fa5ef79.js"
   ]
 }
